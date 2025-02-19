@@ -21,7 +21,7 @@ function poistaKaveri() {
 }
 
 function päivitäLista() {
-    let uusiElementti = document.getElementById("lista");
+    let uusiElementti = document.getElementById("nimiLista");
     uusiElementti.innerHTML = "";
     lista.forEach(function(nimi) {
         let uusiRivi = document.createElement("li");

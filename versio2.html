@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Versio 1</title>
+    <title>Versio 2</title>
     <link rel="stylesheet" href="tyylit.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,10 +20,16 @@
         </nav>
     </header>
     <h2 id="otsikko">Kaverilista</h2>
+    
 
-    <ol id="nimiLista"></ol>
-    <button onclick="nimiListalle()">Lisää</button>
+    <form id="kenttä">
+        <input type="text" id="knimi" placeholder="Anna nimi">
+        <button id="lisäys" type="button" onclick="lisääKaveri()">Lisää kaveri</button>
+        <button id="poisto" type="button" onclick="poistaKaveri()">Poista kaveri</button>
+        <button id="järjestä" type="button" onclick="järjestäKaverit()">Järjestä kaverit</button>
+    </form>
+    <ul id="nimiLista"></ul>
 
-    <script src="main.js"></script>
+    <script src="main2.js"></script>
 </body>
 </html>

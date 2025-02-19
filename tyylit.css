@@ -1,0 +1,47 @@
+body {
+    background-color: aquamarine;
+}
+
+header {
+    background-color: rgb(186, 151, 204);
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 2rem;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px
+}
+
+nav ul li a:hover {
+    background-color: darkorange;
+}
+
+h2 {
+    font-family: "Delicious Handrawn", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+#nimiLista {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: x-large;
+}
+
+
